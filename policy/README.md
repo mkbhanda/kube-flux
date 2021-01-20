@@ -54,9 +54,11 @@ And now you can access it with `localhost:8080` on your browser
 
 3. Deploy the container of that image
 
-`kubectl apply -f low.yaml
+```
+kubectl apply -f low.yaml
 kubectl apply -f medium.yaml
-kubectl apply -f top.yaml`
+kubectl apply -f top.yaml
+```
 
 `kubectl create deployment test --image=us.gcr.io/kube-flux/kube-flux-zeus:0.0.3`
 
